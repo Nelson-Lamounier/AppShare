@@ -1,0 +1,10 @@
+Title: Webcam Photo App
+Description: App project that start the Webcan, let user's capture a photo and uploads the photo to the web along with providing a sharable link to access the captured photo.
+Objects: Webcam:
+            start()
+            stop()
+            capture()
+        SharerFile:
+            filepath
+            api
+            share()
